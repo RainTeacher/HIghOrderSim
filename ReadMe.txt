@@ -2,6 +2,7 @@ Copyright (c) 2020, Ashish Kumar. All rights reserved.
 This code is for updating geostatiscially simulated models with incoming noisy spatial and temporal sensor production data.
 To generate spatial and temporal sensor data: Run the program with options isSensordataavailable and issoftdataavailable in globalVars as False. This will generate the data
 To train and test the agent switch this option to True and run the program again. 
+The data is from "Conditional 3D simulation of lithofacies with 2D seismic data" with "https://doi.org/10.1016/S0098-3004(99)00006-0"
 
 The program contains the following python scripts:
 Adam - Has the classes and functions for Adam optimizer
